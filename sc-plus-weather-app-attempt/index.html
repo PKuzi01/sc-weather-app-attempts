@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/91b33988c5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Outfit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Weather Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <h4>Search City:</h4>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Pick a place" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+        </div>
+
+        <div class="navigation">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="tab" aria-current="page" href="#">City 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="tab" aria-current="page" href="#">City 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="tab" aria-current="page" href="#">City 3</a>
+                </li>
+                <li class="nav-item">
+                  <a class="tab" aria-current="page" href="#">City 4</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="currentDate">
+            <h2 class="date">
+                Tuesday, 19:00
+            </h2>
+        </div>
+
+        <div class="city">
+            <i class="fa-regular fa-snowflake snow"></i>
+            <ul>
+                <h5>(City)</h5>
+                <p>
+                    <ul class="info">High and low temp</ul>
+                    <ul class="info">Precipation</ul>
+                    <ul class="info">Humidity</ul>
+                    <ul class="info">Wind</ul>
+                    <ul class="info">UV</ul>
+                </p>              
+            </ul>
+        </div>
+
+        <div class="cityDetail">
+            <div class="row">
+                <div class="col-3">
+                    <div class="weather">
+                        <i class="fa-regular fa-snowflake snow"></i>
+                        <ul class="info">Low</ul>
+                        <ul class="info">High</ul>
+                    </div> 
+                </div>
+                <div class="col-3">
+                    <div class="weather">
+                        <i class="fa-regular fa-snowflake snow"></i>
+                        <ul class="info">Low</ul>
+                        <ul class="info">High</ul>
+                    </div>  
+                </div>
+                <div class="col-3">
+                    <div class="weather">
+                        <i class="fa-regular fa-snowflake snow"></i>
+                        <ul class="info">Low</ul>
+                        <ul class="info">High</ul>
+                    </div> 
+                </div>
+                <div class="col-3">
+                    <div class="weather">
+                        <i class="fa-regular fa-snowflake snow"></i>
+                        <ul class="info">Low</ul>
+                        <ul class="info">High</ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <br />
+        <div>
+            <footer class="own">
+                Made by Philisizwe Kuzwayo
+            </footer>
+        </div>
+        
+    </div>
+
+<script src="src/script.js"></script>
+</body>
+</html>

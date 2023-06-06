@@ -1,0 +1,106 @@
+body {
+    background: radial-gradient(rgb(95, 93, 189) 2%, rgb(164, 251, 227) 100%);
+}
+
+h4,
+h5 {
+    font-family: 'Cabin', sans-serif;
+    font-size: xx-large;
+    color: #020438;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+.search {
+    display: block;
+    margin-top: 40px;
+    color: #020438;
+}
+
+.form-control {
+    background-color: #5e87b8;
+    color: #f6f5f5;
+    border: transparent;
+}
+
+.btn {
+    color: #f6f5f5;
+    background-color: #020438;
+    transition: all 150ms ease-in-out;
+    border: transparent;
+}
+
+.btn:hover {
+    color:#020438;
+    background-color: #f6f5f5;
+    border: transparent
+}
+
+.info
+.nav-item
+.own
+.btn
+.date {
+    font-family: 'Outfit', sans-serif;
+}
+
+.nav-item {
+    font-family: 'Cabin', sans-serif;
+    font-size: larger;
+    margin-top: 30px;
+}
+
+.date {
+    color:#020438;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+
+.tab {
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    color: #020438;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    font-size: 25px;
+}
+
+.tab:hover {
+    display: block;
+    text-decoration: underline;
+    color: #284184;
+}
+
+
+
+.city {
+    display: block;
+    margin: 0 auto;
+    padding: 25px 220px;
+    color: #020438;
+}
+
+.info {
+    font-size: large;
+    color: #020438;
+}
+
+.snow {
+    color: #020438;
+    font-size: xxx-large;
+    margin: 40px 120px;
+    display: block;
+}
+
+.own {
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    color: #020438;
+}
